@@ -18,3 +18,11 @@ Single neuron with white-noise input acting via IClamp
 Single neuron with white-noise input acting via ExpSynD (a modification of ExpSyn)
 Two noise inputs are delivered via AMPA and GABAA respectively
 Noise parameters are derived in such a way that the result matches the one of Proj_Izh_1cell_NetStim_xei_1.py
+
+*useful/add_noise_input.py*  
+Functions to add white-noise input to a cell compartment (via IClamp or ExpSynD)
+
+*ExpSynD.mod*  
+Modified version of ExpSyn with a constant w added to g at each time step
+Vector.play() could be used to dynamically control w (thus producing a conductance-based custom input)
+
