@@ -26,3 +26,9 @@ Functions to add white-noise input to a cell compartment (via IClamp or ExpSynD)
 Modified version of ExpSyn with a constant w added to g at each time step
 Vector.play() could be used to dynamically control w (thus producing a conductance-based custom input)
 
+*optim_1cell_rxe_rxi*  
+Scripts for probing various combinations of two external firing rates (external spikes go to a single neuronn via AMPA and GABAA synapses respectively)  
+*optim_1cell_rxe_rxi/analyze_batch_res_2.py*  
+Plot the result of the batch simulations (firing rate and CV of a neuron)  
+*optim_1cell_rxe_rxi/batch_result.png*  
+Results of the batch simulation (firing rate and CV)
